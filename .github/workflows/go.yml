@@ -27,4 +27,4 @@ jobs:
       run: docker build -t voteapi .
 
     - name: DeployRun
-      run: docker run voteapi --name voteapi
+      run: docker run voteapi --name voteapi -d
