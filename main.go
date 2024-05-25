@@ -15,5 +15,5 @@ func main() {
 	router.POST("/DoVote", srv.DoVote)
 	router.GET("/GetCountVotes/:voteid", srv.GetCountVotes)
 
-	router.Run(":2000")
+	router.Run(":2020")
 }

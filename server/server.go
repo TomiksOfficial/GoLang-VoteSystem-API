@@ -14,8 +14,8 @@ type ServerHandler struct {
 }
 
 func (handler *ServerHandler) Init() bool {
-	login := `gen_user`
-	password := ``
+	login := `educationuser`
+	password := `33sSWMCA23sb`
 	ip := `147.45.144.210`
 	port := `5432`
 	dbname := `default_db`
