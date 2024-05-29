@@ -14,11 +14,11 @@ type ServerHandler struct {
 }
 
 func (handler *ServerHandler) Init() bool {
-	login := `educationuser`
-	password := `33sSWMCA23sb`
-	ip := `147.45.144.210`
-	port := `5432`
-	dbname := `default_db`
+	login := ``
+	password := ``
+	ip := ``
+	port := ``
+	dbname := ``
 
 	connString := fmt.Sprint(`host=`, ip, ` port=`, port, ` dbname=`, dbname, ` user=`, login, ` password=`, password)
 
